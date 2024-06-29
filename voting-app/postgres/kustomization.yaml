@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
   - postgres-depl.yaml
   - postgres-svc.yaml
+  - postgres-cb.yaml
 
 secretGenerator:
 - name: postgres-secret
