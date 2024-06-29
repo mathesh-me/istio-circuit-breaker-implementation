@@ -56,8 +56,8 @@ kubectl label namespace voteapp istio-injection=enabled
 kustomize build . | kubectl apply -f -
 ```
 5. To access the Voting App, Use the below URL:
-- **Vote for your favorite pet**: http://node-ip:30111
-- **View the results of the votes**: http://node-ip:30112
+- **Vote for your favorite pet**: http://node-ip:30112
+- **View the results of the votes**: http://node-ip:30111
 
 6. To access the Kiali Dashboard, Use the below command:
 ```bash
