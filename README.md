@@ -22,7 +22,7 @@ This repository contains the manifest files to deploy a Voting App on Kubernetes
 
 ## Workflow Architecture Diagram
 
-![Istio-Circuit-Breaker(https://github.com/mathesh-me/istio-circuit-breaker-implementation/assets/144098846/3fdc4307-7bd0-46ed-886e-5028e178fb6f)
+![Istio-Circuit-Breaker](https://github.com/mathesh-me/istio-circuit-breaker-implementation/assets/144098846/3fdc4307-7bd0-46ed-886e-5028e178fb6f)
 
 ## Prerequisites
 
