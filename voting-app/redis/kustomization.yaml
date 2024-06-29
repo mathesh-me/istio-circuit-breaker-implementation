@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
 - redis-depl.yaml
 - redis-svc.yaml
+- redis-cb.yaml
 
 commonLabels:
   category: database-redis
