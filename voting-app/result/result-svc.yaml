@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: result-svc
+  labels:
+    name: result-service
+spec:
+  selector:
+    name: result-pod
+  ports:
+    - protocol: TCP
+      name: http # It is the naming convention followed by Istio, In case you don't follow this naming convention, You'll get some warnings in the logs.
+      port: 80
+      targetPort: 80
+      nodePort: 30111
+  type: NodePort

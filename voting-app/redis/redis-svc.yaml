@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis
+  labels:
+    name: redis-service
+spec:
+  selector:
+    name: redis-pod
+  ports:
+    - protocol: TCP
+      name: tcp-redis # It is the naming convention followed by Istio, In case you don't follow this naming convention, You'll get some warnings in the logs.
+      port: 6379
+      targetPort: 6379
+  type: ClusterIP
