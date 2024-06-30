@@ -53,7 +53,7 @@ kubectl label namespace voteapp istio-injection=enabled
 ```
 4. Deploy the Voting App on your Kubernetes cluster using the following command:
 ```bash
-kustomize build . | kubectl apply -f -
+kustomize build voting-app/ | kubectl apply -f -
 ```
 5. To access the Voting App, Use the below URL:
 - **Vote for your favorite pet**: http://node-ip:30112
