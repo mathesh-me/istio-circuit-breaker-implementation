@@ -64,7 +64,7 @@ kustomize build . | kubectl apply -f -
 istioctl dashboard kiali
 ```
 
-You can also see my article on [Medium]() for a detailed explanation of this `Circuit Breaker Implementation using Istio`. There I also demonstrated one simple demo of How the Circuit Breaker works in the Voting App.
+You can also see my article on [Medium](https://medium.com/towards-aws/boosting-microservice-reliability-implementin-circuit-breakers-with-istio-026ebe39b273) for a detailed explanation of this `Circuit Breaker Implementation using Istio`. There I also demonstrated one simple demo of How the Circuit Breaker works in the Voting App.
 
 ## License
 
